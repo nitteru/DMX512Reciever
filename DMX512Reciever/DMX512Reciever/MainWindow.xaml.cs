@@ -66,12 +66,13 @@ namespace DMX512Reciever
             string[] ports = SerialPort.GetPortNames();
 
             foreach (var m in ports)
+            {
+                results.Add(new ComPort()
                 {
-                    results.Add(new ComPort()
-                    {
-                        portName = (string)m,
-                    });
-                }
+                    portName = (string)m,
+                });
+            }
             return results;
+        }
     }
 }
