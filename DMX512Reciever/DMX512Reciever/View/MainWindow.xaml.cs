@@ -43,6 +43,8 @@ namespace DMX512Reciever
         public MainWindow()
         {
             InitializeComponent();
+
+            this.DataContext = new ViewModel.MainWindowViewModel();
         }
 
         private void Label_Loaded(object sender, RoutedEventArgs e)

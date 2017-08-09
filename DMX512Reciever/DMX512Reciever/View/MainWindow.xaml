@@ -35,862 +35,864 @@
                 <WrapPanel Height="auto" Width="{Binding ElementName=ScrollViewer, Path=ViewportWidth}" Margin="0,0,0,0">
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="1" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[0]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="2" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[1]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="3" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[2]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="4" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[3]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="5" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[4]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="6" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[5]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Name="ColorCode_Ch6" Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="7" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[6]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="8" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[7]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="9" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[8]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label  Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[9]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="11" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[10]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="12" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[11]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="13" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[12]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="14" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[13]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="15" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[14]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="16" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[15]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="17" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[16]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="18" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[17]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="19" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[18]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="20" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[19]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="21" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[20]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="22" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[21]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="23" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[22]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="24" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[23]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="25" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[24]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="26" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[25]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="27" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[26]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="28" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[27]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="29" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[28]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="30" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[29]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="31" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[30]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="32" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[31]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="33" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[32]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="34" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[33]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="35" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[34]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="36" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[35]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="37" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[36]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="38" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[37]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="39" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[38]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="8#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="40" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[39]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="41" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[40]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="42" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[41]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="43" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[42]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="44" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[43]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="45" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[44]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="46" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[45]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="47" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[46]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="48" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[47]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="49" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[48]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="50" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[49]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="51" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[50]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="52" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[51]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="53" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[52]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="54" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[53]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="55" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[54]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="56" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[55]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="57" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[56]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="58" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[57]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="59" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[58]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="60" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[59]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="61" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[60]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="62" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[61]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="63" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[62]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="64" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[63]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="65" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[64]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="66" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[65]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="67" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[66]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="68" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[67]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="69" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[68]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="70" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[69]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="71" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[70]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="72" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[71]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="73" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[72]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="74" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[73]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="75" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[74]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="76" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[75]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="77" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[76]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="78" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[77]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="79" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[78]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="80" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[79]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="81" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[80]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="82" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[81]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="83" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[82]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="84" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[83]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="85" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[84]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="86" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[85]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="87" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[86]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="88" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[87]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="89" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[88]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="90" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[89]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="91" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[90]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="92" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[91]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="93" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[92]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="94" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[93]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="95" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[94]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="96" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[95]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="97" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[96]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="98" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[97]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="99" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[98]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="100" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[99]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="101" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[100]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="102" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[101]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="103" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[102]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="104" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[103]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="105" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[104]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="106" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[105]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="107" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[106]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="108" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[107]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="109" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[108]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="110" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[109]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="111" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[110]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="112" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[111]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="113" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[112]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="114" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[113]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="115" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[114]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="116" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[115]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="117" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[116]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="118" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[117]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="119" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[118]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="120" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[119]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="121" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[120]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="122" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[121]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="123" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[122]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="124" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[123]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="125" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[124]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="126" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[125]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="127" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[126]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="128" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[127]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="129" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[128]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="130" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[129]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="131" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[130]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="132" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[131]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="133" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[132]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="134" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[133]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="135" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[134]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="136" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[135]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="137" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[136]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="138" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[137]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="139" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[138]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="140" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[139]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="141" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[140]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="142" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[141]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="143" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[142]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="144" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[143]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="145" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[144]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="146" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[145]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="147" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[146]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="148" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[147]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="149" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[149]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="150" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[149]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="151" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[150]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="152" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[151]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="153" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[152]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="154" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[153]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="155" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[154]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="156" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[155]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="157" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[156]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="158" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[157]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="159" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[158]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="160" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[159]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="161" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[160]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="162" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[161]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="163" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[162]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="164" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[163]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="165" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[164]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="166" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[165]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="167" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[166]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="168" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[167]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="169" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[168]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0" Height="70" Width="45" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Label Content="170" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
+                        <Rectangle Fill="{Binding Path=RectFillColor[169]}" HorizontalAlignment="Center" Height="20" Margin="0,0,0,0" Stroke="Black" Width="20"/>
                         <Label Content="#FFFFFF" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     </StackPanel>
                 </WrapPanel>
             </Viewbox>
         </ScrollViewer>
-        <Border Grid.Column="2" Grid.Row="2" Grid.ColumnSpan="1" BorderBrush="Silver" BorderThickness="2" CornerRadius="4">
+        <Border Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="3" BorderBrush="Silver" BorderThickness="2" CornerRadius="4">
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
                 <StackPanel Orientation="Horizontal" Margin="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Center">
                     <Label Content="COMポート:" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
                     <ComboBox ItemsSource="{Binding Source={StaticResource portNames}}" SelectedValue="{Binding pName}" SelectedIndex="0" IsEnabled="{Binding Path=ComportComboboxEnabled}" Height="26"  Width="80" Margin="5,5,5,5" Name="Ports" />
+                    <Button Content="接続" Margin="5,5,5,5" Height="26" Width="50"/>
+                    <Button Content="切断"  Margin="5,5,5,5" Height="26" Width="50"/>
                 </StackPanel>
             </StackPanel>
         </Border>

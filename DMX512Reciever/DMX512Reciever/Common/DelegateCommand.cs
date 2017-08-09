@@ -92,4 +92,3 @@ namespace DMX512Reciever.Common
         }
     }
 }
-}
